@@ -8,6 +8,7 @@ getAllEmployees.addEventListener("click", async function () {
   try {
     const result = await fetch("http://localhost:5000/api/employees");
     const data = await result.json();
+    // create a table dynamically and add the informations to it
     let tableHTML = `<table class="table table-bordered">
           <thead>
             <tr>
@@ -28,7 +29,7 @@ getAllEmployees.addEventListener("click", async function () {
     });
 
     tableHTML += `</tbody></table>`;
-    displayResults.innerHTML = tableHTML;
+    displayResults.innerHTML = tableHTML; // display the result in the display__results div
   } catch (error) {
     alert("an unexpected error occured, Please try again");
   }
@@ -62,13 +63,12 @@ getAllCustomers.addEventListener("click", async function () {
     alert("an unexpected error occured, Please try again");
   }
 });
+
 // get all the employees when the get all invoices button is clicked
 getAllInvoices.addEventListener("click", async function () {
   try {
     const result = await fetch("http://localhost:5000/api/invoices");
     const data = await result.json();
-    // displayResults.textContent = data.invoices;
-
     let tableHTML = `<table class="table table-bordered">
           <thead>
             <tr>
