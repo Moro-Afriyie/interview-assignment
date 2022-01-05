@@ -48,7 +48,21 @@ If the installation was successful, you should be able to run the following comm
     $ cd backend (this is the only folder which had a package.json file in it)
     $ npm install
 
+## Install Dependencies for the frontend in case you don't have live server extension installed on vscode
+
+    $ cd frontend
+    $ npm install http-server -g (this package is used to run the frontend files on localhost)
+
 ## Running the project
 
+### Backend
+
+    $ cd backend
     $ npm start
     $ Navigate to `http://localhost:5000`
+
+### Frontend
+
+    $ cd frontend
+    $ http-server
+    $ Navigate to `http://localhost:8080/`
