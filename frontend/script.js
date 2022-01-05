@@ -8,8 +8,7 @@ getAllEmployees.addEventListener("click", async function () {
   try {
     const result = await fetch("http://localhost:5000/api/employees");
     const data = await result.json();
-    console.log(data.employees);
-    let tableHTML = `<table class="table table-striped">
+    let tableHTML = `<table class="table table-bordered">
           <thead>
             <tr>
               <th scope="col">FirstName</th>
@@ -40,8 +39,7 @@ getAllCustomers.addEventListener("click", async function () {
   try {
     const result = await fetch("http://localhost:5000/api/customers");
     const data = await result.json();
-    console.log(data.customers);
-    let tableHTML = `<table class="table table-striped">
+    let tableHTML = `<table class="table table-bordered">
           <thead>
             <tr>
               <th scope="col">Name</th>
@@ -71,7 +69,7 @@ getAllInvoices.addEventListener("click", async function () {
     const data = await result.json();
     // displayResults.textContent = data.invoices;
 
-    let tableHTML = `<table class="table table-striped">
+    let tableHTML = `<table class="table table-bordered">
           <thead>
             <tr>
               <th scope="col">Inv. Number</th>
@@ -95,10 +93,7 @@ getAllInvoices.addEventListener("click", async function () {
 
     tableHTML += `</tbody></table>`;
     displayResults.innerHTML = tableHTML;
-    console.log(data.invoices);
   } catch (error) {
     alert("an unexpected error occured, Please try again");
   }
 });
-
-// displayResults.innerHTML = tableHTML;
