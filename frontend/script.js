@@ -6,6 +6,7 @@ const displayResults = document.querySelector(".display__results");
 // get all the employees when the get all employees button is clicked
 getAllEmployees.addEventListener("click", async function () {
   try {
+    // make AJAX request using the fetch api
     const result = await fetch("http://localhost:5000/api/employees");
     const data = await result.json();
     // create a table dynamically and add the informations to it
