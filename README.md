@@ -8,6 +8,7 @@ A little bit of what's inside the project:
 
 - **Node.js** and **Express** to create the server and handle routes, requests and responses(Backend).
 - **HTML, JavaScript and Boostrap** to create the frontend
+- **Visual Studio Code** IDE
 
 ## Endpoints:
 
