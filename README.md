@@ -23,6 +23,17 @@ A little bit of what's inside the project:
 - **Customers** `{"customers":[{"corpName":"BestCorp","address":"Best Square 12, Los City"},{"corpName":"FirstCorp","address":"First Street 1001, San City"},{"corpName":"FunCorp","address":"Funnest 532, Funland"}]}`
 - **Invoices** `{"invoices":[{"invNumber":"INV2022001","invSum":1024,"currency":"EUR","corpName":"BestCorp"},{"invNumber":"INV2022002","invSum":800,"currency":"EUR","corpName":"FirstCorp"},{"invNumber":"INV2022003","invSum":3400,"currency":"EUR","corpName":"FunCorp"}]}`
 
+#### Example output(Backend):
+
+- **Get All Employees**
+  ![Employees](./employees.png)
+
+- **Get All Customers**
+  ![Customers](./customers.png)
+
+- **Get All Invoices**
+  ![Invoices](./invoices.png)
+
 ## Requirements
 
 - For development, you will only need Node.js and a node global package, installed in your environement.
