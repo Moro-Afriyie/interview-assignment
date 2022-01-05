@@ -7,6 +7,10 @@ app.use(cors());
 
 const port = 5000;
 
+app.get("/", (req, res) => {
+  res.send("welcome to the backend");
+});
+
 // endpoint to get all employees
 app.get("/api/employees", (req, res) => {
   res.json({ employees: data.employees });

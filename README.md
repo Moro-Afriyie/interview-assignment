@@ -2,10 +2,31 @@
 
 ---
 
+## Technologies
+
+A little bit of what's inside the project:
+
+- **Node.js** and **Express** to create the server and handle routes, requests and responses(Backend).
+- **HTML, JavaScript and Boostrap** to create the frontend
+
+## Endpoints:
+
+| Endpoints            | Description                             |
+| -------------------- | --------------------------------------- |
+| GET `/api/employees` | Return all employees from the Json file |
+| GET `/api/customers` | Return all customers from the Json file |
+| GET `/api/invoices`  | Return all invoices from the Json file  |
+
 ## Requirements
 
 - For development, you will only need Node.js and a node global package, installed in your environement.
 - IDE used is Visual Studio Code editor and must have Live Server extension installed to be able to run the raw html file(in terms of giving it a port number orthewise it will be blocked by CORS policy)
+
+#### Example output:
+
+- **Employees** `{"employees":[{"firstName":"John","lastName":"Doe","age":30},{"firstName":"Anna","lastName":"Smith","age":28},{"firstName":"Peter","lastName":"Jones","age":36}]}`
+- **Customers** `{"customers":[{"corpName":"BestCorp","address":"Best Square 12, Los City"},{"corpName":"FirstCorp","address":"First Street 1001, San City"},{"corpName":"FunCorp","address":"Funnest 532, Funland"}]}`
+- **Invoices** `{"invoices":[{"invNumber":"INV2022001","invSum":1024,"currency":"EUR","corpName":"BestCorp"},{"invNumber":"INV2022002","invSum":800,"currency":"EUR","corpName":"FirstCorp"},{"invNumber":"INV2022003","invSum":3400,"currency":"EUR","corpName":"FunCorp"}]}`
 
 ### Node
 
