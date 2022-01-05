@@ -71,6 +71,7 @@ If the installation was successful, you should be able to run the following comm
 
 - ## Getting Started
   $ git clone https://github.com/Moro-Afriyie/interview-assignment.git
+  $ or you can download the zip file
 
 ##
 
