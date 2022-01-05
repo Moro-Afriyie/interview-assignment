@@ -4,7 +4,8 @@
 
 ## Requirements
 
-For development, you will only need Node.js and a node global package, installed in your environement.
+-For development, you will only need Node.js and a node global package, installed in your environement.
+-IDE used is Visual Studio Code editor and must have Live Server extension installed to be able to run the raw html file
 
 ### Node
 
@@ -35,12 +36,19 @@ If the installation was successful, you should be able to run the following comm
 
 ---
 
-## Install
+- ## Getting Started
+  $ git clone https://github.com/Moro-Afriyie/interview-assignment.git
 
-    $ git clone https://github.com/Moro-Afriyie/interview-assignment.git
+##
+
+---
+
+## Install Dependencies for the backend
+
     $ cd backend (this is the only folder which had a package.json file in it)
     $ npm install
 
 ## Running the project
 
     $ npm start
+    $ Navigate to `http://localhost:5000`
