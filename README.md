@@ -10,6 +10,17 @@ A little bit of what's inside the project:
 - **HTML, JavaScript and Boostrap** to create the frontend
 - **Visual Studio Code** IDE
 
+### Files
+
+- **Frontend**
+  - index.html
+  - script.js
+  - style.css
+- **Backend**
+  - app.js (the actual code for the backend server)
+  - package.json. contains installed packages
+  - .env (environment variables specifically the port the server is running on)
+
 ## Endpoints:
 
 | Endpoints            | Description                             |
