@@ -18,6 +18,7 @@ A little bit of what's inside the project:
   - style.css
 - **Backend**
   - app.js (the actual code for the backend server)
+  - rest_cfg (the json file)
   - package.json. contains installed packages
   - .env (environment variables specifically the port the server is running on)
 
