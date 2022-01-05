@@ -51,7 +51,7 @@ If the installation was successful, you should be able to run the following comm
 ## Install Dependencies for the frontend in case you don't have live server extension installed on vscode
 
     $ cd frontend
-    $ npm install http-server -g (this package is used to run the frontend files on localhost)
+    $ npm install http-server -g (this package is used to run the frontend files on localhost since i didn't use any frontend framework)
 
 ## Running the project
 
