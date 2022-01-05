@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const data = require("./rest_cfg.json"); // import the json file
@@ -5,7 +6,7 @@ const app = express();
 
 app.use(cors());
 
-const port = 5000;
+const port = process.env.PORT || 4000;
 
 app.get("/", (req, res) => {
   res.send("welcome to the backend");
