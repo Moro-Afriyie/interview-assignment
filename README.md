@@ -5,7 +5,7 @@
 ## Requirements
 
 - For development, you will only need Node.js and a node global package, installed in your environement.
-- IDE used is Visual Studio Code editor and must have Live Server extension installed to be able to run the raw html file
+- IDE used is Visual Studio Code editor and must have Live Server extension installed to be able to run the raw html file(in terms of giving it a port number orthewise it will be blocked by CORS policy)
 
 ### Node
 
