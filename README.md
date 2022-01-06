@@ -9,7 +9,7 @@
 A little bit of what's inside the project:
 
 - **Node.js** and **Express** to create the server and handle routes, requests and responses(Backend).
-- **HTML, JavaScript and Bootsrap** to create the frontend
+- **HTML, JavaScript and Bootstrap** to create the frontend
 - **Visual Studio Code** IDE
 
 ### Files
