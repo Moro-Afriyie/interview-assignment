@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 
 // endpoint to get all employees
 app.get("/api/employees", (req, res) => {
-  res.json({ employees: data.employees });
+  res.json({ employees: data.employees }); //send a json response to the frontend
 });
 
 //endpoint to get all customers
