@@ -7,7 +7,7 @@
 A little bit of what's inside the project:
 
 - **Node.js** and **Express** to create the server and handle routes, requests and responses(Backend).
-- **HTML, JavaScript and Boostrap** to create the frontend
+- **HTML, JavaScript and Bootsrap** to create the frontend
 - **Visual Studio Code** IDE
 
 ### Files
@@ -49,12 +49,12 @@ A little bit of what's inside the project:
 
 ## Requirements
 
-- For development, you will only need Node.js and a node global package, installed in your environement.
-- IDE used is Visual Studio Code editor and must have Live Server extension installed to be able to run the raw html file(in terms of giving it a port number orthewise it will be blocked by CORS policy)
+- For development, you will only need Node.js and a node global package, installed in your environment.
+- IDE used is Visual Studio Code editor and must have Live Server extension installed to be able to run the raw html file(in terms of giving it a port number otherwise it will be blocked by CORS policy)
 - Live Server is needed because:
   - AJAX requests don't work with the file:// protocol due to security restrictions, i.e. you need a server if your site fetches content through JavaScript
   - Having the page reload automatically after changes to files can accelerate development.
-  - you can read more about live server here [live server vsode extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+  - you can read more about live server here [live server vscode extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ### Node
 
