@@ -51,6 +51,10 @@ A little bit of what's inside the project:
 
 - For development, you will only need Node.js and a node global package, installed in your environement.
 - IDE used is Visual Studio Code editor and must have Live Server extension installed to be able to run the raw html file(in terms of giving it a port number orthewise it will be blocked by CORS policy)
+- Live Server is needed because:
+  - AJAX requests don't work with the file:// protocol due to security restrictions, i.e. you need a server if your site fetches content through JavaScript
+  - Having the page reload automatically after changes to files can accelerate development.
+  - you can read more about live server here [live server vsode extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ### Node
 
