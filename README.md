@@ -1,5 +1,7 @@
 # interview-assignment
 
+- Live solution URL: [https://web-application-moro-owusu-afriyie.netlify.app/](https://web-application-moro-owusu-afriyie.netlify.app/)
+
 ---
 
 ## Technologies
