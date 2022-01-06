@@ -98,6 +98,7 @@ If the installation was successful, you should be able to run the following comm
 
     $ cd backend (this is the only folder which had a package.json file in it)
     $ npm install
+    $ npm install --save-dev nodemon
 
 ## Install Dependencies for the frontend in case you don't have live server extension installed on vscode
 
