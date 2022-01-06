@@ -100,7 +100,7 @@ If the installation was successful, you should be able to run the following comm
 ## Install Dependencies for the frontend in case you don't have live server extension installed on vscode
 
     $ cd frontend
-    $ npm install http-server -g (this package is used to run the frontend files on localhost since i didn't use any frontend framework)
+    $ npm install http-server -g (this package is used to run the frontend files on localhost)
 
 ## Running the project
 
@@ -110,8 +110,10 @@ If the installation was successful, you should be able to run the following comm
     $ npm start
     $ Navigate to `http://localhost:5000`
 
-### Frontend
+### Frontend (If you don't have live server extension)
 
     $ cd frontend
     $ http-server
     $ Navigate to `http://localhost:8080/`
+
+- for the http-server command you have to rerun this command anytime you make a change to the frontend since it doesn't have a live reloading feature
